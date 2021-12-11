@@ -1,0 +1,10 @@
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 250px;
+}
+
+.links {
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+.timeHeader {
+    color: #787878;
+    font-family: Montserrat;
+    padding: 18px 11px;
+    background-color: rgb(250, 246, 246);
+    margin: 0px;
+}
+
+.tdWeekday {
+    color: white;
+    text-align: center;
+    background-color: #1E2537;
+    padding: 15px 48px;
+    margin: 0px;
+}
+
+.tdHourEntry {
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color: hsl(120, 73%, 75%);
+    
+    text-align: center;
+
+    margin: 0px;
+    border: none;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.headerRow {
+    margin: 0px;
+    padding: 0px;
+}
+.table {
+    margin-top: 30px;
+    padding: 0px;
+    
+
+}
+
+.loader {
+    margin-top : 60px;
+    align-items : center;
+
+    border : 16px solid #f3f3f3; 
+    border-top : 16px solid #3498db; 
+    border-radius : 50%;
+    width : 120px;
+    height : 120px;
+    animation : spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

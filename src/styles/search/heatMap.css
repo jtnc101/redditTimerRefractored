@@ -1,0 +1,57 @@
+.element0 {
+    background-color: rgb(224, 238, 145);
+}
+
+
+.element1 {
+    background-color: hsl(120, 73%, 75%);
+}
+
+.element2 {
+    background-color: hsl(120, 73%, 75%);
+}
+.element3{
+    background-color: hsl(120, 73%, 70%);
+}
+.element4 {
+    background-color: hsl(120, 73%, 65%);
+}
+.element5 {
+    background-color: hsl(120, 73%, 60%);
+}
+.element6 {
+    background-color: hsl(120, 73%, 55%);
+}
+.element7 {
+    background-color: hsl(120, 73%, 50%);
+}
+.element8 {
+    background-color: hsl(120, 73%, 45%);
+}
+.element9 {
+    background-color: hsl(120, 73%, 40%);
+}
+.element10 {
+    background-color: rgb(13, 109, 141);
+}
+
+
+
+.tdHourEntry {
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    
+    text-align: center;
+
+    margin: 0px;
+    border: none;
+    
+
+}
+
+.tdHourEntry:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.2,1.2);
+}

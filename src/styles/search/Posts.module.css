@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 20px;
+}
+
+.table, .th, .td {
+    border: 1px solid rgb(68, 67, 67);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.td:first-of-type{
+    max-width: 500px;
+    min-width: 500px;
+    overflow: hidden;
+    color: blue;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.th:first-of-type {
+    max-width: 500px;
+    min-width: 500px;
+}
+.td:last-of-type {
+    color: blue;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
