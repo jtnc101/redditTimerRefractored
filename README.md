@@ -14,7 +14,7 @@ tasks were written with small scope.  Allows for more frequent checks of working
 1. used css modules to avoid confusion of name overlaps in one massive master css styles page.
 [css modules](redditTimerRefractored/reddit-timer-DOCS/cssModules.jpg)
 2. used react router to go to different routing pages. Created dynamic routing pages based on user's input
-of the wanted subreddit. [react router] (redditTimerRefractored/reddit-timer-DOCS/reactRouter.jpg)
+of the wanted subreddit. [react router](redditTimerRefractored/reddit-timer-DOCS/reactRouter.jpg)
 3. used Context to manage shared states across components.
 [context example 1. ](redditTimerRefractored/reddit-timer-DOCS/context1.jpg)
 [context example 2. ](redditTimerRefractored/reddit-timer-DOCS/context2.jpg)
