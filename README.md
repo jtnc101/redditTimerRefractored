@@ -12,7 +12,7 @@ tasks were written with small scope.  Allows for more frequent checks of working
 # How to navigate
 
 	1. used css modules to avoid confusion of name overlaps in one massive master css styles page.
-	[css modules](redditTimerRefractored/reddit-timer-DOCS/cssModules.jpg)
+	.[css modules](redditTimerRefractored/reddit-timer-DOCS/cssModules.jpg)
 	[css modules](redditTimerRefractored/reddit-timer-DOCS/cssModules.jpg)
 	2. used react router to go to different routing pages. Created dynamic routing pages based on user's input
 	of the wanted subreddit. [react router] (redditTimerRefractored/reddit-timer-DOCS/reactRouter.jpg)
@@ -26,3 +26,4 @@ tasks were written with small scope.  Allows for more frequent checks of working
   
   (note: project was refractored to create a cleaner architecture and more modular design. Files were grouped into different folders and subfolders. Files were written 
   with 1 purpose in mind vs having a bloated file, performing many functions. Some of the images were from the original reddit-timer project.)
+[kanban use](redditTimerRefractored/reddit-timer-DOCS/clickUpKanban.jpg)
