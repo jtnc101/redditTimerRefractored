@@ -3,7 +3,7 @@
 Matching the spacing exactly as outlined by the designers. [figma design](redditTimerRefractored/reddit-timer-DOCS/figmaScreenShot.jpg)
 2. Used a kanban board.Specifically clickUp.com. Coding was broken down to different tasks and the groups went through
 phases of to do,progress, review and accomplished. [kanban use](redditTimerRefractored/reddit-timer-DOCS/clickUpKanban.jpg)
-3. created many branches and pull requests through github. [github flow] (redditTimerRefractored/reddit-timer-DOCS/branchesPullRequests.jpg)
+3. created many branches and pull requests through github. [github flow](redditTimerRefractored/reddit-timer-DOCS/branchesPullRequests.jpg)
 
 For the second dynamic page, I self created the tasks to have a fuller understanding of how the page should be 
 written. To ensure I grasps the components and principles, features needed in building out the page. Again, many
