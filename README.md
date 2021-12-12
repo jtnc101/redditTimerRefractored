@@ -16,9 +16,9 @@ tasks were written with small scope.  Allows for more frequent checks of working
 2. used react router to go to different routing pages. Created dynamic routing pages based on user's input
 of the wanted subreddit. [react router] (redditTimerRefractored/reddit-timer-DOCS/reactRouter.jpg)
 3. used Context to manage shared states across components.
-[context example 1](redditTimerRefractored/reddit-timer-DOCS/context1.jpg)
-[context example 2](redditTimerRefractored/reddit-timer-DOCS/context2.jpg)
-[context example 3](redditTimerRefractored/reddit-timer-DOCS/context3.jpg)
+[context example 1. ](redditTimerRefractored/reddit-timer-DOCS/context1.jpg)
+[context example 2. ](redditTimerRefractored/reddit-timer-DOCS/context2.jpg)
+[context example 3.](redditTimerRefractored/reddit-timer-DOCS/context3.jpg)
 4. fetch data from reddit. Reddit has a 100 record limit per fetch. Needed to retrieve a marker to indicate
 last record fetched to retrieve the next batch properly.  
 [api fetch](redditTimerRefractored/reddit-timer-DOCS/apiFetch.jpg)
