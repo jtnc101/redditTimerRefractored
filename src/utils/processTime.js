@@ -1,5 +1,5 @@
-// Takes a time in 24 hour format and returns a string of 
-// format XX:YY am/pm
+// Takes a time in 24 hour format and returns a 12 hour format string 
+// in form of XX:YY am/pm.
 
 export function processTime (hours, minutes) {
 
