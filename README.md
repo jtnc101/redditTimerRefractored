@@ -9,7 +9,7 @@ For the second dynamic page, I self created the tasks to have a fuller understan
 written. To ensure I grasps the components and principles, features needed in building out the page. Again, many
 tasks were written with small scope.  Allows for more frequent checks of working codes.
 
-# How to navigate ...
+# How to navigate
 
 	1. used css modules to avoid confusion of name overlaps in one massive master css styles page.
 	[css modules](redditTimerRefractored/reddit-timer-DOCS/cssModules.jpg)
