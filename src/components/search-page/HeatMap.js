@@ -33,36 +33,13 @@ const HeatMap = () => {
         stopLoader();
     }
 
-    // const updateHeatMap = () => {
-
-    //     let heatMapSubstitute = get2DZeroArray(numOfRows, numOfColumns);
-    //     try {
-    //         for( let i= 0; i < 500; i++ ) {
-
-    //             let utcTime = redditData[i].data.created_utc;
-    //             let date = new Date(utcTime*1000);
-    //             let day = date.getDay();
-    //             let hour = date.getHours();
-
-    //             heatMapSubstitute[day][hour] += 1;
-    //         }
-    //     }   
-    //     catch(e) {
-    //         console.log(e);
-    //     }
-
-    //     setHeatMap( heatMapSubstitute );
-
-    // }
-
     const updateHeatMap = () => {
         setHeatMap( processHeatMap(redditData));
     }
     useEffect( ()=> {
 
         retrieveAPIData();
-        
-        
+      
     }, [subreddit]);
 
     useEffect ( () => {
