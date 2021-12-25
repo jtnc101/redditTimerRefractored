@@ -14,7 +14,7 @@ const Footer = () => {
             <Link to={`/${appName}/terms`} className={FooterCSS.links}>Terms & Privacy</Link> */}
             <a href="https://profy.dev/employers" className={FooterCSS.links}>profy.dev</a>
             <Link to={`/${appName}`}><img src={sign} alt="sign"/></Link>
-            <Link to={"/terms"} className={FooterCSS.links}>Terms & Privacy</Link>
+            <Link to={"/terms"} id="terms" className={FooterCSS.links}>Terms & Privacy</Link>
         </footer>
     );
 }

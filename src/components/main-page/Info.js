@@ -6,17 +6,17 @@ const Info = () => {
     <div className={InfoCSS.mainContainer}>
       <div className={InfoCSS.secondaryContainer}>
         <div className={InfoCSS.subContainer}>
-          <span className={InfoCSS.title} name="how-it-works" id="how-it-works">How it works</span>
-          <div className={InfoCSS.list}>
+          <span data-testid='infoTitle' className={InfoCSS.title} name="how-it-works" id="how-it-works">How it works</span>
+          <div data-testid='infoList' className={InfoCSS.list}>
             <li>We find the 500 top posts from the past year for a subreddit.</li>
             <li>The data is visualized in a heatmap grouped by weekday and hour of the day.</li>
             <li>See immediately when to submit your reddit post.</li>
           </div>
         </div>
         <div className={InfoCSS.subContainer}>
-          <span className={InfoCSS.title} name="about" id="about">About</span>
+          <span  className={InfoCSS.title} name="about" id="about">About</span>
           <div>
-            <div>
+            <div data-testid='infoAbout' >
               The front page of the app was created with the guidance from <a href="https://profy.dev">profy.dev</a>. 
             The goal is
             </div>

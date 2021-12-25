@@ -37,9 +37,7 @@ const HeatMap = () => {
         setHeatMap( processHeatMap(redditData));
     }
     useEffect( ()=> {
-
-        retrieveAPIData();
-      
+        retrieveAPIData();     
     }, [subreddit]);
 
     useEffect ( () => {
